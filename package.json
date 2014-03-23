@@ -2,7 +2,7 @@
   "author": "Carlos Fernández Llamas",
   "name": "ziptree",
   "description": "Node.js module for creating .zip files from a object tree",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "repository": {
     "url": "https://github.com/Sirikon/ziptree"
   },
