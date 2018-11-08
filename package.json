@@ -8,12 +8,15 @@
   },
   "main": "./lib/ziptree",
   "scripts": {
-    "test": "cd test && ./test.sh"
+    "test": "cd test && ./test.sh",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
   },
   "dependencies": {
     "adm-zip": "0.4.11"
   },
   "devDependencies": {
+    "eslint": "^5.8.0",
     "unzipper": "^0.9.4"
   },
   "optionalDependencies": {},
