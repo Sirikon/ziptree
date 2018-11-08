@@ -7,10 +7,15 @@
     "url": "https://github.com/Sirikon/ziptree"
   },
   "main": "./lib/ziptree",
+  "scripts": {
+    "test": "cd test && ./test.sh"
+  },
   "dependencies": {
     "adm-zip": "0.4.11"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "unzipper": "^0.9.4"
+  },
   "optionalDependencies": {},
   "engines": {
     "node": "*"
